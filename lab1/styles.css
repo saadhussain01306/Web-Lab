@@ -38,7 +38,7 @@ th, td {
 }
 
 th {
-    background-color:  #f9f2f2;
+    background-color:  #DCDCDC;
 }
 
 td {
@@ -69,7 +69,7 @@ td[colspan="2"] {
 }
 
 .t2 th {
-    background-color: #f9f2f2;
+    background-color: #DCDCDC;
 }
 
 .t2 td {
@@ -90,4 +90,14 @@ footer {
     padding: 10px;
     background-color: #333; 
     color: #fff; 
+}
+
+.mr{
+ 
+ margin-top: 20px;
+ background-color: #D3D3D3;
+ padding: 20px;
+ font-size: 25px;
+ border-radius: 25px;
+   
 }
