@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab-5</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>CSS with suitable design</header>
+
+    <h1>Different Font Styles</h1>
+    <p class="font-style-1">This text uses font style 1.</p>
+    <p class="font-style-2">This text uses font style 2.</p>
+    
+    <h1>Background Image Repetition</h1>
+    <div class="background"></div>
+    
+    <h1>Link Styles</h1>
+    <a href="https://jssstuniv.in/#/" class="link">Normal link</a><br>
+    <a href="https://jssstuniv.in/#/" class="active">Active link</a><br>
+    <a href="https://jssstuniv.in/#/" class="hover">Hovered link</a><br>
+    <a href="https://jssstuniv.in/#/" class="visited">Visited link</a>
+    
+    <h1>Element Visibility</h1>
+    <button onclick="toggleVisibility()">Toggle visibility</button>
+    <p id="visibility-demo">This element can be toggled with the button above.</p>
+    
+    <script>
+      function toggleVisibility() {
+        var element = document.getElementById("visibility-demo");
+        if (element.style.display === "none") {
+          element.style.display = "block";
+        } else {
+          element.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
