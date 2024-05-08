@@ -1,0 +1,60 @@
+<!-- Develop an XHTML document and Java script to validate the following fields in a registration page:
+i. User ID (must be of length 5 to 12)
+iii.
+ii.Name (only alphabets and the length should not be less than 15 characters)
+iii.Password (must be eight characters including one uppercase letter, one special character and alphanumeric characters)
+iv. E-mail (should not contain invalid addresses) -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XHTML validation form</title>
+    <style>
+        .container {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+     }
+
+
+    input{
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+    width: 70%;
+     }
+
+    button{
+    font-size: 12px;
+    background-color: rgb(204, 222, 216);
+    text-align: center;
+    padding: 10px;
+     }
+
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Validation Form</h1>
+            <label for="user">Enter Your User ID</label><br><br>
+             <input type="text" id="user" placeholder="Your User ID"><br><br>
+             <label for="name">Enter your name</label><br><br>
+             <input type="text" id="name" placeholder="Your name"><br><br>
+             <label for="password">Enter your password</label><br><br>
+             <input type="password" id="password" placeholder="Your Password"><br><br>
+             <label for="email">Enter Your Email ID</label><br><br>
+             <input type="email" id="email" placeholder="Your Email"><br><br>
+             
+             <button onclick="validate()">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
