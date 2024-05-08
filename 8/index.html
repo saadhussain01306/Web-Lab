@@ -1,0 +1,58 @@
+<!-- Write an XHTML document which displays a form containing text elements to input register number, sub-code, marks in three tests and a button element. 
+Also write Java script compute the average of two best tests on click of button and print average marks using alert. Validate all the fields using JavaScript. -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XHTML Validation form</title>
+    <style>
+    .container {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+     }
+
+
+    input[type="text"]{
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+    width: 70%;
+     }
+
+    button{
+    font-size: 12px;
+    background-color: rgb(204, 222, 216);
+    text-align: center;
+    padding: 10px;
+   }
+
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="usn">Enter Your Registration number</label><br><br>
+            <input type="text" id="usn" placeholder="Your USN"><br><br>
+            <label for="code">Enter your Subject Code</label><br><br>
+            <input type="text" id="code" placeholder="Subject Code"><br><br>
+            <label for="marks-1">Enter Your Test-1 Marks</label><br><br>
+            <input type="text" id="marks1" placeholder="Test-1 marks"><br><br>
+            <label for="marks-2">Enter Your Test-2 Marks</label><br><br>
+            <input type="text" id="marks2" placeholder="Test-2 marks"><br><br>
+            <label for="marks-3">Enter Your Test-3 Marks</label><br><br>
+            <input type="text" id="marks3" placeholder="Test-3 marks"><br><br>
+
+            <button onclick="validate()">Submit</button><br><br>
+            
+        </form>
+    </div>
+</body>
+</html>
