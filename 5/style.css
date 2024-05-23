@@ -22,24 +22,24 @@ body {
   background-repeat: repeat;
 }
 
-a.link {
+a:link {
   color: blue;
   text-decoration: none;
 }
 
 
-a.visited {
+a:visited {
   color: purple;
   text-decoration: none;
 }
 
 
-a.hover {
+a:hover {
   color: red;
   text-decoration: underline;
 }
 
-a.active {
+a:active {
   color: green;
   text-decoration: underline;
 }
