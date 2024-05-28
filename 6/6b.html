@@ -1,0 +1,207 @@
+//b) Use External, Internal, and Inline CSS to format resume that you created 
+//in Week 4
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Resume</title>
+
+    <style> 
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+
+        }
+
+        .container {
+
+            display: inline-block;
+
+            text-align: left;
+
+        }
+
+        h1 {
+
+            font-size: 50px;
+
+        }
+
+        h2 {
+
+            font-size: 36px;
+
+        }
+
+        h3 {
+
+            font-size: 24px;
+
+            color: purple;
+
+        }
+
+        h4 {
+
+            color: purple;
+
+        }
+
+        img {
+
+            border-radius: 50%;
+
+        }
+
+        .full {
+
+            width: 100%;
+
+            margin: 20px;
+
+            display: grid;
+
+            grid-template-columns: 2fr 4fr;
+
+        }
+
+        .left {
+
+            position: initial;
+
+            padding: 20px;
+
+        }
+
+        .right {
+
+            position: initial;
+
+            padding: 20px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="full">
+
+        <div class="left">
+
+            <h1>Rohit </h1>
+
+            <p>A passionate individual with a keen interest in technology and innovation.</p>
+
+            <address>
+
+                Address: 123 Main St, City, Country<br>
+
+                Contact: +123456789<br>
+
+                Email: rohit@example.com
+
+            </address>
+
+            <p>Github : <a href = "https://github.com/saadhussain01306">visit-site</a></p>
+
+            <h3>Skills</h3>
+
+            <ul>
+
+                <li>Programming Languages
+
+                    <ul>
+
+                        <li>JavaScript</li>
+
+                        <li>Python</li>
+
+                        <li>HTML/CSS</li>
+
+                    </ul>
+
+                </li>
+
+                <li>Web Development</li>
+
+            </ul>
+
+            <h3>Languages</h3>
+
+            <ul>
+
+                <li>English</li>
+
+                <li>Spanish</li>
+
+            </ul>
+
+        </div>
+
+        <div class="right">
+
+            <h2>Education</h2>
+
+            <h3>University Name</h3>
+
+            <p>Bachelor of Science in Computer Science<br>
+
+                Expected Graduation: 2024<br>
+
+                GPA: 3.9</p>
+
+            <h3>College Name</h3>
+
+            <p>Department of Pre-University Education<br>
+
+                Graduated: 2020<br>
+
+                Percentage: 95%</p>
+
+            <h3>School Name</h3>
+
+            <p>High School Diploma<br>
+
+                Graduated: 2018<br>
+
+                Percentage: 92%</p>
+
+            <h2>Projects</h2>
+
+            <div>
+
+                <h3>Project 1</h3>
+
+                <p>A simple web application for managing tasks efficiently.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Project 2</h3>
+
+                <p>An e-commerce website built using modern web technologies.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
