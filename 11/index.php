@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Submission</title>
+    <style>
+        .container {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+     }
+
+    input{
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+    width: 70%;
+     }
+
+    </style>
 </head>
 <body>
+<div class="container">
     <h2>Enter Your Information</h2>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
         <label for="info">Information:</label><br>
@@ -14,6 +34,7 @@
         <input type="submit" value="Submit">
         <input type="reset" value="Reset">
     </form>
+    </div>
 
     <?php
    
