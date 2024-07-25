@@ -15,9 +15,8 @@
     <div class="background"></div>
     
     <h1>Link Styles</h1>
-    <a href="https://leetcode.com/" >Anchor link-1</a><br>
-    <a href="https://leetcode.com/" >Anchor link-2</a><br>
-    
+    <a href="https://leetcode.com/">Anchor link-1</a><br>
+    <a href="https://leetcode.com/">Anchor link-2</a><br>
     
     <h1>Element Visibility</h1>
     <button onclick="toggleVisibility()">Toggle visibility</button>
@@ -26,10 +25,10 @@
     <script>
       function toggleVisibility() {
         var element = document.getElementById("visibility-demo");
-        if (element.style.display === "none") {
-          element.style.display = "block";
+        if (element.style.visibility === "hidden") {
+          element.style.visibility = "visible";
         } else {
-          element.style.display = "none";
+          element.style.visibility = "hidden";
         }
       }
     </script>
